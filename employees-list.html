@@ -120,7 +120,8 @@ color: white;
                         <a 
                             href="#"
                             class="btn btn-sm btn-primary"
-                            data-bs-toggle="#employee_detail">
+                            data-bs-toggle="modal" 
+                            data-bs-target="#employee_detail">
                             Details
                         </a>
                         </div>
@@ -156,7 +157,8 @@ color: white;
                         <a 
                             href="#"
                             class="btn btn-sm btn-primary"
-                            data-bs-toggle="#employee_detail">
+                            data-bs-toggle="modal" 
+                            data-bs-target="#employee_detail">
                             Details
                         </a>
                         </div>
@@ -192,7 +194,8 @@ color: white;
                         <a 
                             href="#"
                             class="btn btn-sm btn-primary"
-                            data-bs-toggle="#employee_detail">
+                            data-bs-toggle="modal" 
+                            data-bs-target="#employee_detail">
                             Details
                         </a>
                         </div>
@@ -228,7 +231,8 @@ color: white;
                         <a 
                             href="#"
                             class="btn btn-sm btn-primary"
-                            data-bs-toggle="#employee_detail">
+                            data-bs-toggle="modal" 
+                            data-bs-target="#employee_detail">
                             Details
                         </a>
                         </div>
@@ -346,6 +350,76 @@ style="background-color: rgba(255, 255, 255, 0.3); backdrop-filter: blur(5px);">
 </div>
 </div>
           <!--  Add Employee Modal  -->
+
+                   <!-- Employee Details Modal  -->
+<div 
+class="modal fade"
+id="employee_detail"
+data-bs-backdrop="static"
+tabindex="-1"
+aria-hidden="true"
+style="background-color: rgba(255, 255, 255, 0.3); backdrop-filter: blur(5px);">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header text-bg-dark">
+            <h5 class="modal-title">Add Employee Details</h5>
+            <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-light p-0">
+           <table class="table table-bordered small mb-0">
+                <tr>
+                    <th class="w-50">ID</th>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th>Employee ID</th>
+                    <td>741</td>
+                </tr>
+                <tr>
+                    <th>First Name</th>
+                    <td>John</td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td>Doe</td>
+                </tr>
+                <tr>
+                    <th>Email ID</th>
+                    <td>johndoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>7418529632</td>
+                </tr>
+                <tr>
+                    <th>Joining Data</th>
+                    <td>25th July 2022</td>
+                </tr>
+           </table>
+        </div>
+        <div class="modal-footer">
+             <a 
+             href="#" 
+             class="btn btn-sm btn-warning"
+             data-bs-toggle="modal"
+             data-bs-target="#employee_edit">
+            Edit Details
+        </a>
+        <a 
+        href="#"
+        class="btn btn-sm btn-primary"
+        data-bs-dismiss="modal"
+        aria-label="Close">
+    Close</a>
+        </div>
+    </div>
+</div>
+</div>
+          <!-- Employee Details Modal  -->
 
 </body>
 </html>
